@@ -1,0 +1,28 @@
+{
+  "name": "npm-api",
+  "version": "1.0.0",
+  "description": "This module will do query NPM registry to fetch any NPM module details including statistics.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anisoftcorporation/npm-api.git"
+  },
+  "keywords": [
+    "npm-api",
+    "api",
+    "npm",
+    "download",
+    "statistic",
+    "stat",
+    "module-stat"
+  ],
+  "author": "Anirban Bhattacharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anisoftcorporation/npm-api/issues"
+  },
+  "homepage": "https://github.com/anisoftcorporation/npm-api#readme"
+}
