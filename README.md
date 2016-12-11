@@ -1,15 +1,15 @@
-# npm-api
+# api-npm
 This module will do query NPM registry to fetch any NPM module details including statistics.
 
 To use the module first simply install the module using the below command.
 
-**npm install npm-api**
+**npm install api-npm**
 
 To add it to your package.json use below command while installing
 
-**npm install npm-api --s**
+**npm install api-npm --s**
 
-**How to use npm-api**
+**How to use api-npm**
 
 The current version of the module has only two functions to use
 
@@ -17,7 +17,7 @@ The current version of the module has only two functions to use
 
 2. getdetails (modulename,callback)
 ```
-  var api = require('npm-api');
+  var api = require('api-npm');
   api.getstat('express','2016-11-12','2016-12-09',test);
   //api.getdetails('simple-html-template',test);
 
@@ -56,7 +56,7 @@ Then the output will be like this
 
 Now lets have a look at another function to see how can we get detaails of any Module from NPM registry
 ```
-var api = require('npm-api');
+var api = require('api-npm');
  // api.getstat('express1','2016-11-12','2016-12-09',test);
   api.getdetails('simple-html-template',test);
 
